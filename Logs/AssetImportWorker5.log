@@ -1,0 +1,961 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Sergio Andres Mejia/The_Gambler
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+57042
+Successfully changed project path to: C:/Users/Sergio Andres Mejia/The_Gambler
+C:/Users/Sergio Andres Mejia/The_Gambler
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 118.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sergio Andres Mejia/The_Gambler/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5958 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016442 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 112.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Domain Reload Profiling:
+	ReloadAssembly (915ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010336 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.573 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8574ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (8133ms)
+			LoadAssemblies (1053ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2611ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (4358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (3807ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.11 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3848.
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 4.335800 ms (FindLiveObjects: 0.452700 ms CreateObjectMapping: 0.105300 ms MarkObjects: 3.646100 ms  DeleteObjects: 0.130200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33409.440992 seconds.
+  path: Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_65.png
+  artifactKey: Guid(aa4b727540ecf1f4cb510399a02cffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_65.png using Guid(aa4b727540ecf1f4cb510399a02cffd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ced99a4e5413f2bbf838b7136b8526a') in 0.184235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Rock climber slot game kit/animations/gems/blue_idle/blue_idle_05.png
+  artifactKey: Guid(db93079d979cd0a4a9cb8a0d979fe602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/animations/gems/blue_idle/blue_idle_05.png using Guid(db93079d979cd0a4a9cb8a0d979fe602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce16283a1071a2e6adbd3e7040cf266') in 0.075741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109970 seconds.
+  path: Assets/Simasart/Hungry Bat/Art/Background/bg_Trees.png
+  artifactKey: Guid(dea399e55d8c7a54b840b364def11fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simasart/Hungry Bat/Art/Background/bg_Trees.png using Guid(dea399e55d8c7a54b840b364def11fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd5885d993605c92ef590fbe66a3883') in 0.235384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_55.png
+  artifactKey: Guid(e9070a80744405c489a9af9ba25680c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_55.png using Guid(e9070a80744405c489a9af9ba25680c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e8d3bfad6ab8767131f2fdc07cafa6') in 0.041498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_60.png
+  artifactKey: Guid(1b1e0b0df2c574b4293b84264e8bf130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_60.png using Guid(1b1e0b0df2c574b4293b84264e8bf130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3930d160976ff5dbd902ee6e5fa06857') in 0.115872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_56.png
+  artifactKey: Guid(b49ca4d41bd52bf46a63376506fc539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_56.png using Guid(b49ca4d41bd52bf46a63376506fc539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d99546a88813818be90cde77e20e1e4') in 0.038375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_59.png
+  artifactKey: Guid(84c9293ee64815a448d738a9ee412d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/animations/gems/blue_breaking/blue_breaking_59.png using Guid(84c9293ee64815a448d738a9ee412d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a328d35c4ee497ca71a5f7382d52fad') in 0.045379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/auto_spin.png
+  artifactKey: Guid(ab2714d6e967a9043b2a0ed0b846620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/auto_spin.png using Guid(ab2714d6e967a9043b2a0ed0b846620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21ffc33c07823b9f3125bb2e8d891ce') in 0.033086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/betmax_active.png
+  artifactKey: Guid(25f4aa0f2bffa6e4fa2b4fffb6141a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/betmax_active.png using Guid(25f4aa0f2bffa6e4fa2b4fffb6141a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c189a4b18ea0284b6668ad9ffa5ba99') in 0.030055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/betone_active.png
+  artifactKey: Guid(b33e7adacf464384b9c4ae58b046f96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/betone_active.png using Guid(b33e7adacf464384b9c4ae58b046f96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94099ed72dd80a91146fc3bae378f702') in 0.068052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Simasart/Hungry Bat/Art/UI/Bar/bar_fill.png
+  artifactKey: Guid(7ea1f418bd367c4439b1576afa6f4f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simasart/Hungry Bat/Art/UI/Bar/bar_fill.png using Guid(7ea1f418bd367c4439b1576afa6f4f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69bcd2ecd36752899ccbfd6bf800589') in 0.025662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simasart/Hungry Bat/Art/UI/Bar/bar_border.png
+  artifactKey: Guid(c9fadc51fbe37964baf4960ffb627050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simasart/Hungry Bat/Art/UI/Bar/bar_border.png using Guid(c9fadc51fbe37964baf4960ffb627050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55df1e528b5669809fe8a1ffa27ecebc') in 0.067178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071812 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/10_clovers.png
+  artifactKey: Guid(d7b198ced38eb1d439b8d412bac1adeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/10_clovers.png using Guid(d7b198ced38eb1d439b8d412bac1adeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6b84064f9f069705f879f668ae7054') in 0.048356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/10_hearts.png
+  artifactKey: Guid(fd1632469c9071040abc074668939430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/10_hearts.png using Guid(fd1632469c9071040abc074668939430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4930578caa6cffa9ea55f93f6ad472') in 0.035066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/Ace_pikes.png
+  artifactKey: Guid(08243cb8b1b141f4dbe0a5e79d290654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/Ace_pikes.png using Guid(08243cb8b1b141f4dbe0a5e79d290654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a419f0a90d07c8611ab1fb052f8660dc') in 0.088020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.631617 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/icons_value_separate/8.png
+  artifactKey: Guid(1696b8b2aa6d1a647b366e40153ede65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/icons_value_separate/8.png using Guid(1696b8b2aa6d1a647b366e40153ede65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd6d2ff5ce643a6001e0c2bfaa6e9f8') in 0.034442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/9_diam.png
+  artifactKey: Guid(847fd4aecd4868d489f1c24b7ec7fd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/9_diam.png using Guid(847fd4aecd4868d489f1c24b7ec7fd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106f212cbaf55ad239e166991c1e1289') in 0.032694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/9_clovers.png
+  artifactKey: Guid(ddf2ff06186d950409dde8f7da019229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/9_clovers.png using Guid(ddf2ff06186d950409dde8f7da019229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b26a8ac35fe14f270ba34fd6d28903') in 0.047169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/9_inactive.png
+  artifactKey: Guid(a3274d991a77f0b46a2f99a2432ee6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/9_inactive.png using Guid(a3274d991a77f0b46a2f99a2432ee6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6385a78cf85937ea3b52b497756abe6e') in 0.037115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.969459 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/6_hearts.png
+  artifactKey: Guid(f29ec8ce193dfd64da0de514d2c861bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/6_hearts.png using Guid(f29ec8ce193dfd64da0de514d2c861bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc5c52dd72b5ab02616590368ca353e') in 0.044829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/7_lines_active.png
+  artifactKey: Guid(1abb97e28f0921c45b64fd8748dc73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/7_lines_active.png using Guid(1abb97e28f0921c45b64fd8748dc73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a245b6c9d2029801bc0ea615d301ccc') in 0.033464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/winlines/7.png
+  artifactKey: Guid(1fe7e75ac7775a34984b684511aca126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/winlines/7.png using Guid(1fe7e75ac7775a34984b684511aca126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219b7674df1bfb404db2a3ecd3a4aaab') in 0.067889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/7_inactive.png
+  artifactKey: Guid(9255f5441c8e88847a8919b6578f9d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/7_inactive.png using Guid(9255f5441c8e88847a8919b6578f9d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf1b1df8814d613ce4ee413aed4f20e') in 0.031968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.428437 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/icons_value_separate/5.png
+  artifactKey: Guid(0d646bfebf3d5c640a016bce1877e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/icons_value_separate/5.png using Guid(0d646bfebf3d5c640a016bce1877e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027bef7ad2ab24da494b807e922f4ae6') in 0.033278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/winlines/5.png
+  artifactKey: Guid(dd20329d59ab7d94ab81e904a4681d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/winlines/5.png using Guid(dd20329d59ab7d94ab81e904a4681d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601d542533ab24a7da318d0dc16d15b5') in 0.028978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/5_clovers.png
+  artifactKey: Guid(850ef2e98d31f014bbfd0b24a9a9768f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/5_clovers.png using Guid(850ef2e98d31f014bbfd0b24a9a9768f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735dbc5fd5775403621f944f3fd0cd34') in 0.145980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/5_diam.png
+  artifactKey: Guid(ccda7e9b62916d241a00db1f542ce69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/5_diam.png using Guid(ccda7e9b62916d241a00db1f542ce69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd10b3b59e4e6b227a48d7acc0f07d29') in 0.036427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296712 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/3_clovers.png
+  artifactKey: Guid(cba7ac1bf0107b449b5f5e5887f408fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/3_clovers.png using Guid(cba7ac1bf0107b449b5f5e5887f408fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b70a8722035946984d462327575c8a') in 0.049545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/3_diam.png
+  artifactKey: Guid(2677cb31f98673d4b97185eb0e81b381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/3_diam.png using Guid(2677cb31f98673d4b97185eb0e81b381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acaf44ad7e1a21ea6c0d480e869b36e') in 0.035641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/3_inactive.png
+  artifactKey: Guid(b2a56883653d7064eb79fbe75240d3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/3_inactive.png using Guid(b2a56883653d7064eb79fbe75240d3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e552b51a90873bc55bbd0bd6ce5be86a') in 0.062749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/3_lines_active.png
+  artifactKey: Guid(b88a9bb5f633c764b93966e54f5a6b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/3_lines_active.png using Guid(b88a9bb5f633c764b93966e54f5a6b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f408880d79d07986d37def3c3d4bda') in 0.167665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.203977 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/1_inactive.png
+  artifactKey: Guid(b04ca3ada08d1eb47b2c35ff29da6b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/1_inactive.png using Guid(b04ca3ada08d1eb47b2c35ff29da6b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2533e85605eeb2460a70616788f2ca') in 0.032632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/2.png
+  artifactKey: Guid(4a13b5a6a69a15c4480959faa21d883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/2.png using Guid(4a13b5a6a69a15c4480959faa21d883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e57ceeaa5d15dd240262ae604c8a9f') in 0.031715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/2_diam.png
+  artifactKey: Guid(4ce323de0386b9d419627bc81f3a82b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/2_diam.png using Guid(4ce323de0386b9d419627bc81f3a82b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583f333d582b5cd01ba3aade24c66b62') in 0.036132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/2_hearts.png
+  artifactKey: Guid(b83b7021bb7826d4797a810d7a8fd5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/2_hearts.png using Guid(b83b7021bb7826d4797a810d7a8fd5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df81e539df8f4286e53414e1e34f570') in 0.030694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/winlines/2.png
+  artifactKey: Guid(68c0e3588b510c348a7f31c5a7152f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/winlines/2.png using Guid(68c0e3588b510c348a7f31c5a7152f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629c671adc81e728c6ac324b114acf0d') in 0.032977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 574.459632 seconds.
+  path: Assets/eretichable Technologies/Cartoon explosion BOOM Weapons Gun VFX/Materials/2.mat
+  artifactKey: Guid(587012d08d0dad14eb8515fa0cc09ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eretichable Technologies/Cartoon explosion BOOM Weapons Gun VFX/Materials/2.mat using Guid(587012d08d0dad14eb8515fa0cc09ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de92918e739d73e4df777fd690a28129') in 0.055019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/eretichable Technologies/Cartoon explosion BOOM Weapons Gun VFX/Materials/4.mat
+  artifactKey: Guid(120850d68820cce4c88af7d2946400eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eretichable Technologies/Cartoon explosion BOOM Weapons Gun VFX/Materials/4.mat using Guid(120850d68820cce4c88af7d2946400eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c147a1339547f28b4841dcfe1927eb') in 0.012769 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009669 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1290ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (78.6 KB). Loaded Objects now: 3930.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 3.824100 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.095500 ms MarkObjects: 3.286700 ms  DeleteObjects: 0.114400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010152 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1425ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3933.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.223100 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.093000 ms MarkObjects: 3.650000 ms  DeleteObjects: 0.111300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009721 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1380ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1052ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3936.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.160900 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.093700 ms MarkObjects: 3.586300 ms  DeleteObjects: 0.113400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009563 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.405 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1406ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1087ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3939.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.026400 ms (FindLiveObjects: 0.363400 ms CreateObjectMapping: 0.097000 ms MarkObjects: 3.460300 ms  DeleteObjects: 0.104100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010391 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1380ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1059ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3942.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.351500 ms (FindLiveObjects: 0.385200 ms CreateObjectMapping: 0.109000 ms MarkObjects: 3.748800 ms  DeleteObjects: 0.107100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011526 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1045ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3945.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.203800 ms (FindLiveObjects: 0.368100 ms CreateObjectMapping: 0.095300 ms MarkObjects: 3.627100 ms  DeleteObjects: 0.111700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010512 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (458ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3948.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.277200 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.106500 ms MarkObjects: 3.671600 ms  DeleteObjects: 0.135900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011424 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1366ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3951.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.228400 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.092400 ms MarkObjects: 3.681500 ms  DeleteObjects: 0.117200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sergio Andres Mejia\The_Gambler\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1363ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1048ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3954.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.460200 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.095200 ms MarkObjects: 3.870200 ms  DeleteObjects: 0.125500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3119.206761 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd036785823e2281556a384dd6489b') in 0.188771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Simasart/Hungry Bat/Fonts/TMP/gomarice_rocks_white_outline.asset
+  artifactKey: Guid(3b2cebfebb7ab97499912765e39bec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simasart/Hungry Bat/Fonts/TMP/gomarice_rocks_white_outline.asset using Guid(3b2cebfebb7ab97499912765e39bec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163790838a3e36d45b0e5f958b61c95e') in 0.072258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b165b2fd94449fd5247aaa0909a42376') in 0.031549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ffedb4bf19227e436b4625aa24aa32') in 0.054962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Simasart/Hungry Bat/Fonts/TMP/gomarice_rocks_yellow_outline_big.asset
+  artifactKey: Guid(70956447234d33b40b396b67314a5843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simasart/Hungry Bat/Fonts/TMP/gomarice_rocks_yellow_outline_big.asset using Guid(70956447234d33b40b396b67314a5843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf318cfb1b29efa3feed8c4e4a77fc2') in 0.048769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Simasart/Hungry Bat/Fonts/TMP/gomarice_rocks.asset
+  artifactKey: Guid(70a6d98c6ce034e43b79bfaa3805fb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simasart/Hungry Bat/Fonts/TMP/gomarice_rocks.asset using Guid(70a6d98c6ce034e43b79bfaa3805fb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc804e7db4bb85d36e60d58210baf9a7') in 0.048112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simasart/Hungry Bat/Fonts/TMP/gomarice_rocks_purple.asset
+  artifactKey: Guid(914bdd14ee6179647977adb5ac747cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simasart/Hungry Bat/Fonts/TMP/gomarice_rocks_purple.asset using Guid(914bdd14ee6179647977adb5ac747cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c905c6c63e2e31995b9d23991ca10747') in 0.045382 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
